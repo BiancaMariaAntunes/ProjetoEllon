@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+.section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(169, 214, 229, 0.56) 150%);
+}
+.inputsection{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 15px;
+    flex-direction: column;
+    width: 45vw;
+    height: 20%;
+}
+.label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5vh;
+    text-align: center;
+}
+.p{
+    font-family: 'Poppins', sans-serif;
+    color: red;
+    font-size: 2vh;
+}
+input[type=text] {
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+    font-size: 20px;
+    width: 30vw;
+    height: 5vh;
+    border: none;
+    border-bottom: 2px solid black;
+  }
+  .div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px
+}
+.result{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    margin-top: 20px;
+    gap: 15px;
+    flex-direction: row;
+    width: 100%;
+    height: 80%;
+  }
+  .quadrado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    height: 20vh;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom: 2px solid black;
+  }
+  .quadrado:hover{
+    background-color: rgba(169, 214, 229, 0.56);
+  }
+  .tax{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 3vh;
+  }
+
+  /*--------------------------------------------------------------------*/
