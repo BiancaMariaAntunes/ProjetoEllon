@@ -1,8 +1,5 @@
-# React + Vite
+# Projeto BlockChain
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esse projeto visa mostrar em tempo real o preço do Bitcoin em dólar, e também mostra, na página seguinte, o histórico valores de venda do bitcoin.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Link do documento do BlockChain: https://api.blockchain.com/v3/
