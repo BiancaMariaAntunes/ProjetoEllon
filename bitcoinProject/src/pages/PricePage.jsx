@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
 import Data from '../components/Data'
-import { useNavigate } from 'react-router-dom';
 
 
 function PricePage() {
