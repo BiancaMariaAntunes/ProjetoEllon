@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+.div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    gap: 25px;
+    background: linear-gradient(135deg, rgb(14, 18, 27) 70%, rgb(74, 45, 153) 120%);
+
+}
+
+.table {
+    height: 80vh;
+    width: 50vw;
+    box-shadow: 0px 0px 25px 2px rgba(135, 117, 238, 0.212);
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #333 #f0f0f0;
+}
+
+.table::-webkit-scrollbar {
+    width: 8px;
+}
+
+.table::-webkit-scrollbar-thumb {
+    background-color: #eeeeeebb;
+}
+
+.table::-webkit-scrollbar-track {
+    background-color: #00000000;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+    width: 100%;
+    background-color: rgba(112, 112, 248, 0.137);
+    border-bottom: 2px inset rgba(0, 0, 0, 0.562);
+    font-family: 'Poppins', sans-serif;
+    font-size: 3vh;
+    color: rgba(255, 255, 255, 0.897)
+}
+
+.line:hover {
+    background-color: rgba(169, 214, 229, 0.56);
+}
+
+.h {
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4vh;
+    color: rgba(255, 255, 255, 0.897)
+}
+
+.buttontxt {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4vh;
+    color: rgba(255, 255, 255, 0.897)
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.buttondiv {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-right: -80vw;
+    margin-bottom: 10px;
+}

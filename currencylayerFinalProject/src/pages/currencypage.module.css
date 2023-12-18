@@ -24,7 +24,7 @@
 }
 .p{
     font-family: 'Poppins', sans-serif;
-    color: red;
+    color: rgb(0, 0, 0);
     font-size: 2vh;
 }
 input[type=text] {

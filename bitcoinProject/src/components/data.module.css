@@ -1,0 +1,43 @@
+.div {
+    height: 100vh;
+    width: 100%;
+    gap: 25px;
+    background: linear-gradient(135deg, rgb(14, 18, 27) 70%, rgb(74, 45, 153) 120%);
+    padding: 0;
+}
+.section{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.h{
+    font-family: 'Poppins', sans-serif;
+    font-size: 6vh;
+    color: rgba(255, 255, 255, 0.897);
+    text-shadow: 1px 2px 25px rgba(16, 12, 255, 0.897);
+}
+.p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 4vh;
+    color: rgba(255, 255, 255, 0.897);
+    text-shadow: 1px 2px 25px rgba(77, 12, 255, 0.897);
+}
+
+.buttontxt{
+    font-family: 'Poppins', sans-serif;
+    font-size: 4vh;
+    color: rgba(255, 255, 255, 0.897)
+}
+.buttondiv{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.image{
+    height: 20vh;
+    width: 10vw;
+}
